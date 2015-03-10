@@ -1,9 +1,9 @@
 <?php 
 
-  $i = 100;
+  $i = 2;
 	do{
 		echo $i.PHP_EOL;
-		$i-=5;
-	}while ($i > -6)
+		$i *= $i;
+	}while ($i < 10000000)
 
  ?>
