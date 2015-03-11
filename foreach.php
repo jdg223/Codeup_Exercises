@@ -10,9 +10,9 @@ foreach ($things as $key => $answer) {
 	}elseif (is_bool($answer)) {
 		echo "$answer is a bool\n";
 	}elseif (is_null($answer)) {
-		echo "$answer is null\n";
+		echo "$answer null is null\n";
 	}elseif (is_array($answer)) {
-		echo "$answer is an array\n";
+		echo "\$answer is an array whose values are ".implode(",",$answer),"\n";
 	}elseif (is_float($answer)) {
 		echo "$answer is a float\n";
 	}
