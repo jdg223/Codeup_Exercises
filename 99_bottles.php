@@ -2,7 +2,7 @@
 
 // play on MacOS Terminal
 
-for($i = 99; $i >= -2; $i--){ 
+for($i = 1; $i >= -2; $i--){ 
 	$minus = $i - 1;
 	
 switch ($i){
@@ -12,7 +12,7 @@ switch ($i){
 		$minus bottle of beer on the wall"`;
 	 	continue;
 	 case 1:
-	 	echo "$i bottle of beer on the wall, $i bottle of beer take one down pass it around, 0 bott...wait theres no more beer\n";
+	 	echo "$i bottle of beer on the wall, $i bottle of beer take one down pass it around, 0 bott...wait there's no more beer\n";
 		`say -v Tom "$i bottle of beer on the wall, $i bottle of beer take one down pass it around, 0 bawtt......wait theres no more beer"`;
 	 	continue;
 	 case 0:
