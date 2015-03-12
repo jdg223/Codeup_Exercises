@@ -2,7 +2,7 @@
 
 // play on MacOS Terminal
 
-for($i = 1; $i >= -2; $i--){ 
+for($i = 99; $i >= -2; $i--){ 
 	$minus = $i - 1;
 	
 switch ($i){
